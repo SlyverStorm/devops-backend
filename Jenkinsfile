@@ -27,7 +27,8 @@ node {
     stage("Push docker images") {
         sh '''
             version=`cat devops-backend/appsettings.json | grep -oP '(?<=\"version\": \")[^\"]*'`
-            docker push slyverstorm16/devops-backend:latest slyverstorm16/devops-backend:$version
+            docker push slyverstorm16/devops-backend:latest
+            docker push slyverstorm16/devops-backend:$version
         '''
     }
 
