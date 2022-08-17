@@ -2,6 +2,6 @@
   devops-backend:
     image: slyverstorm16/devops-backend:latest
     ports:
-      - "80:4200"
-      - "443:4201"
+      - "4200:80"
+      - "4201:443"
     restart: always
