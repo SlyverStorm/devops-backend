@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "o1ZQfxNAZzDPflPD+OtF0ZXtyE3FSE++MeZIIP07d0k=",
+  "Source": "devops-backend",
+  "BasePath": "_content/devops-backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

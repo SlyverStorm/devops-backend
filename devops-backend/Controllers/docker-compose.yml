@@ -1,0 +1,7 @@
+﻿services:
+  devops-backend:
+    image: slyverstorm16/devops-backend:latest
+    ports:
+      - "80:4200"
+      - "443:4201"
+    restart: always
